@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+    font-family: "Bai Jamjuree", sans-serif;
+}
+
+.padding-common {
+    padding-left: 240px;
+    padding-right: 240px;
+}
+
+@media only screen and (min-width: 1600px) and (max-width: 1800px) {
+    .padding-common {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1600px) {
+    .padding-common {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .padding-common {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .mobile-navbar {
+        display: none;
+    }
+
+    .header-container .header,
+    .header-container .navbar {
+        display: block;
+    }
+
+}
+
+@media only screen and (max-width: 992px) {
+    .padding-common {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .header-container .header,
+    .header-container .navbar {
+        display: none;
+    }
+
+    .mobile-navbar {
+        display: block;
+    }
+
+    .banner .category {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .padding-common {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .learn-more {
+        display: none;
+    }
+}
+
+.enter-email input.ant-input.ant-input-outlined.w-full {
+    border-radius: 50px;
+    height: 50px;
+    padding: 16px 20px;
+}
+
+.btn-email button.ant-btn.ant-btn-default {
+    border-radius: 50px;
+    background: #2B38D1;
+    border-color: #2B38D1;
+    height: 50px;
+    font-size: 12px;
+    color: #FFFFFF;
+    font-weight: 700;
+    padding: 16px 36px;
+}
+
+.btn-sub button.ant-btn.ant-btn-default {
+    border-radius: 50px;
+    background: #FFFFFF;
+    border-color: #FFFFFF;
+    height: 50px;
+    font-size: 12px;
+    color: #212529;
+    font-weight: 700;
+    padding: 16px 36px;
+}
+
+input.ant-input.ant-input-outlined.flex.w-full {
+    border: none;
+    width: 100%;
+    box-shadow: none;
+}
+
+.ant-input-outlined:focus,
+.ant-input-outlined:focus-within {
+    border: none;
+    box-shadow: none;
+}
+
+.select-search .ant-select-outlined .ant-select-selector {
+    border: none;
+}
+
+.select-search .ant-select-selector.ant-select-focus {
+    border: none;
+    box-shadow: none;
+}
+
+.btn-search label.ant-radio-button-wrapper {
+    background: #2b38d1;
+    box-shadow: none;
+    border: #2b38d1;
+    color: #FFFFFF;
+}
